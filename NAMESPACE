@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+import(fdapace)
+importFrom(survival, coxph)
+importFrom(stats, rnorm, runif, rweibull, anova, uniroot, integrate,
+           as.formula)
+importFrom("grDevices", "dev.off", "pdf")
+importFrom("graphics", "layout", "lines", "plot")
